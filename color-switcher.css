@@ -1,0 +1,44 @@
+:root {
+    --gray:gray;
+    --white:white;
+    --blue:#6495ed;
+    --yellow:#ffff00;
+    --blur-level:0px;
+}
+
+body {
+    background-color: var(--white);
+}
+
+#button1 {
+    width: 60px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: gray;
+    filter: blur(var(--blur-level));
+}
+
+#button2 {
+    width: 60px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#button3 {
+    width: 60px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+#button4 {
+    width: 60px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: yellow;
+}
